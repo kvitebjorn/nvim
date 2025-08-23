@@ -27,7 +27,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     opts = {
       ensure_installed = {
-        "asm-lsp",
+        "asm_lsp",
         "clangd",
         "gopls",
       },
