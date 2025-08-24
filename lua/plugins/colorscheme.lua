@@ -1,7 +1,7 @@
 return {
-  -- add monokai
+  -- add sonokai
   {
-    "polirritmico/monokai-nightasty.nvim",
+    "sainnhe/sonokai",
     lazy = false,
     priority = 1000,
   },
@@ -10,7 +10,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monokai-nightasty",
+      colorscheme = "sonokai",
     },
   },
 }
