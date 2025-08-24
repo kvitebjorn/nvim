@@ -1,16 +1,17 @@
 return {
-  -- add sonokai
+
+  -- add gruvbox
   {
-    "sainnhe/sonokai",
+    "khoido2003/classic_monokai.nvim",
     lazy = false,
     priority = 1000,
   },
 
-  -- Configure LazyVim to load monokai
+  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "sonokai",
+      colorscheme = "classic-monokai",
     },
   },
 }
