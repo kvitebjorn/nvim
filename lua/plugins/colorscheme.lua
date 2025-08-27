@@ -1,17 +1,17 @@
 return {
 
-  -- add gruvbox
+  -- add monokai pro
   {
-    "khoido2003/classic_monokai.nvim",
+    "loctvl842/monokai-pro.nvim",
     lazy = false,
     priority = 1000,
   },
 
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load monokai pro
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "classic-monokai",
+      colorscheme = "monokai-pro",
     },
   },
 }
