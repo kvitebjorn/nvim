@@ -1,17 +1,11 @@
 return {
-
-  -- add monokai pro
   {
-    "loctvl842/monokai-pro.nvim",
+    "sainnhe/everforest",
     lazy = false,
     priority = 1000,
-  },
-
-  -- Configure LazyVim to load monokai pro
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "monokai-pro",
-    },
+    config = function()
+      vim.g.everforest_background = "hard"
+      vim.cmd.colorscheme("everforest")
+    end,
   },
 }
